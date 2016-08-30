@@ -57,8 +57,10 @@
         <javaClientGenerator targetPackage="${targetMapperPackage}" targetProject="${targetJavaProject}" type="XMLMAPPER" />
 
         <!-- 生成所有的表 -->
-        <table tableName="%" >
+        <table tableName="LOGIN_LOGOUT_LOG" >
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
+
+
     </context>
 </generatorConfiguration>

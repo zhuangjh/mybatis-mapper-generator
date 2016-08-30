@@ -12,8 +12,8 @@
         <!--  MyBatis Generator  -->
         <!--  Java接口和实体类  -->
         <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
-        <targetMapperPackage>com.example.mapper.mapper</targetMapperPackage>
-        <targetModelPackage>com.example.mapper.model</targetModelPackage>
+        <targetMapperPackage>com.ricelink.cas.managed.mapper.mapper</targetMapperPackage>
+        <targetModelPackage>com.ricelink.cas.managed.mapper.model</targetModelPackage>
         <!--  XML生成路径  -->
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <targetXMLPackage>mybatis.mapper</targetXMLPackage>

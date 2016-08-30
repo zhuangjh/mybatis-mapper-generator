@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ricelink.cas.managed.mapper.mapper.LoginLogoutLogMapper">
+  <resultMap id="BaseResultMap" type="com.ricelink.cas.managed.mapper.model.LoginLogoutLog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="LOGIN_TYPE" jdbcType="VARCHAR" property="loginType" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="SERVICE_ID" jdbcType="VARCHAR" property="serviceId" />
+    <result column="CREATE_DATE" jdbcType="DATE" property="createDate" />
+  </resultMap>
+</mapper>
