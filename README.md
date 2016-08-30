@@ -8,4 +8,4 @@ mybatis 生成通用mapper 项目
 ![图片](/doc/img/config.properties.png)
 
 ###二、配置generatorConfig.xml
-
+![图片](/doc/img/generatorConfig.xml.png)
