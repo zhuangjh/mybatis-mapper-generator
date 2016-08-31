@@ -9,3 +9,6 @@ mybatis 生成通用mapper 项目
 
 ###二、配置generatorConfig.xml
 ![图片](/doc/img/generatorConfig.xml.png)
+
+###三、配置pom.xml
+![图片](/doc/img/pom.xml.png)
